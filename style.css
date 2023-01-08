@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+}
+
+header * {
+    border: red solid 2px;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    gap: 50px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 250px;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 250px;
+    font-weight: bold;
+}

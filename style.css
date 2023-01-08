@@ -1,16 +1,32 @@
 body {
     box-sizing: border-box;
+    
 }
 
-header * {
+/* header start */
+
+* {
     border: red solid 2px;
+}
+
+header,
+.section-one {
+    background-color: #1F2937;
 }
 
 header {
     display: flex;
-    background-color: #1F2937;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1745px;
+    height: auto;
+    flex-shrink: 0;
 }
 
 header ul {
@@ -20,12 +36,68 @@ header ul {
     gap: 50px;
     font-size: 18px;
     color: #E5E7EB;
-    margin-right: 250px;
+    margin-left: 250px;
 }
 
 .header-logo-text {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 250px;
+    margin-right: 250px;
     font-weight: bold;
 }
+
+/* header end */
+
+/* section-one start */
+
+.section-one {
+    display: flex;
+    padding: 100px 200px 100px 200px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-one .container-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: green solid 2px;
+    max-width: 500px;
+    flex-shrink: 0;
+
+    
+}
+
+.section-one img {
+    height: 200px;
+    width: 600px;
+    min-width: 60px;
+    min-height: 20px;
+    flex-shrink: 0;
+    
+}
+
+.section-one button {
+    width: 100px;
+    height: 30px;
+
+}
+
+.section-one p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.middle-container {
+    flex-basis: 50px;
+    max-width: 50px;
+}
+

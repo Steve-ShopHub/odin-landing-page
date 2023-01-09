@@ -97,6 +97,7 @@ margin-bottom: 0px;
     color: white;
     font-weight: bold;
     font-size: 18px;
+    border: 0px;
 
 }
 
@@ -179,6 +180,18 @@ h3 {
 
 /* section-four start */
 
+h4 {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.section-four p {
+    margin: 0px;
+    font-size: 18px;
+}
+
 .section-four {
     display: flex;
     justify-content: center;
@@ -188,13 +201,14 @@ h3 {
 
 .CTA-container {
     display: flex;
-    justify-content: space-around;
-    flex-shrink: 1;
-    gap: 280px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 250px;
     background-color: #3882F6;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #E5E7EB;
-    width: 1030px;
+    max-width: 1030px;
     padding: 50px 80px;
 }
 
@@ -202,8 +216,17 @@ h3 {
     flex-direction: column;
     flex-shrink: 0;
     width: auto;
+    justify-content: center;
 }
 
 .section-four button {
-    margin-right: 50px;
+    margin-right: 0px;
+    width: 125px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid 2px #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
 }

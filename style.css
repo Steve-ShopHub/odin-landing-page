@@ -1,12 +1,15 @@
 body {
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+
+
 
 /* header start */
 
 * {
-    border: red solid 2px;
+    border: red solid 0px;
 }
 
 header,
@@ -33,7 +36,7 @@ header ul {
     display: flex;
     list-style: none;
     padding-left: 0px;
-    gap: 50px;
+    gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
     margin-left: 250px;
@@ -45,8 +48,6 @@ header ul {
     margin-right: 250px;
     font-weight: bold;
 }
-
-/* header end */
 
 /* section-one start */
 
@@ -63,25 +64,41 @@ header ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: green solid 2px;
-    max-width: 500px;
-    flex-shrink: 0;
-
-    
+    max-width: 480px;
+   
 }
 
-.section-one img {
-    height: 200px;
-    width: 600px;
-    min-width: 60px;
-    min-height: 20px;
+.section-one .container-left p {
+ margin-top: 5px;
+ margin-bottom: 10px;
+}
+
+.section-one .container-left h1 {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.section-one .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    height: 238px;
+    width: 526px;
     flex-shrink: 0;
+    background-color: #868686;
+    font-size: 18px;
     
 }
 
 .section-one button {
-    width: 100px;
-    height: 30px;
+    width: 125px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: rgb(68, 133, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 
 }
 
@@ -100,4 +117,6 @@ h1 {
     flex-basis: 50px;
     max-width: 50px;
 }
+
+/* section-two start */
 

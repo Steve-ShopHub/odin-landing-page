@@ -96,7 +96,7 @@ margin-bottom: 0px;
     width: 125px;
     height: 38px;
     border-radius: 8px;
-    background-color: rgb(68, 133, 255);
+    background-color: #4485ff;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -121,3 +121,34 @@ h1 {
 
 /* section-two start */
 
+
+
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.image-row-one {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.image-with-subtext .placeholder {
+    border: solid #4485ff 2px;
+    border-radius: 20px;
+    width: 170px;
+    height: 170px;
+}
+
+.image-with-subtext p {
+    max-width: 170px;
+    flex-wrap: wrap;
+}
+
+
+/* section-three start */

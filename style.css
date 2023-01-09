@@ -8,9 +8,6 @@ body {
 
 /* header start */
 
-* {
-    border: red solid 0px;
-}
 
 header,
 .section-one {
@@ -96,7 +93,7 @@ margin-bottom: 0px;
     width: 125px;
     height: 38px;
     border-radius: 8px;
-    background-color: #4485ff;
+    background-color: #3882F6;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -122,7 +119,10 @@ h1 {
 /* section-two start */
 
 
-
+.section-two {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
 
 h2 {
     font-size: 36px;
@@ -139,7 +139,7 @@ h2 {
 }
 
 .image-with-subtext .placeholder {
-    border: solid #4485ff 2px;
+    border: solid #3882F6 5px;
     border-radius: 20px;
     width: 170px;
     height: 170px;
@@ -152,3 +152,58 @@ h2 {
 
 
 /* section-three start */
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 120px;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+    font-size: 22px;
+}
+
+.section-three-container {
+    width: 880px;
+}
+
+
+/* section-four start */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.CTA-container {
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 1;
+    gap: 280px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    color: #E5E7EB;
+    width: 1030px;
+    padding: 50px 80px;
+}
+
+.text-container-four {
+    flex-direction: column;
+    flex-shrink: 0;
+    width: auto;
+}
+
+.section-four button {
+    margin-right: 50px;
+}

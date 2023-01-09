@@ -64,7 +64,8 @@ header ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 480px;
+    width: 480px;
+    flex-shrink: 0;
    
 }
 

@@ -230,3 +230,15 @@ h4 {
     font-weight: bold;
     font-size: 18px;
 }
+
+
+/* footer start */
+
+footer { 
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    height: auto;
+    padding: 40px;
+}
